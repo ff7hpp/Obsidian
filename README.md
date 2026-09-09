@@ -1,6 +1,6 @@
 # AI-MIND
 
-### A living knowledge system for building better products with Codex.
+### A living knowledge system for building better products.
 
 AI-MIND is the shared second brain for product ideas, engineering decisions,
 reusable patterns, source notes, and lessons learned across projects.
@@ -35,14 +35,3 @@ Source or project
  stronger work next time
 ```
 
-Use `add` to ingest a source, `update` to refresh knowledge from a project,
-and `check` to find contradictions, stale claims, broken links, orphan pages,
-and missing sources. The full workflow is documented in [`CODEX.md`](CODEX.md).
-
-## Guiding principles
-
-- Keep knowledge concise, useful, and traceable.
-- Link related ideas as they are written.
-- Preserve `raw/` exactly; it is the source layer.
-- Keep actual application code in its own project repository.
-- Treat unverified or outdated claims as questions, not facts.
