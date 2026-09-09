@@ -1,23 +1,48 @@
 # AI-MIND
 
-Shared knowledge system for Codex projects.
+### A living knowledge system for building better products with Codex.
 
-## Structure
+AI-MIND is the shared second brain for product ideas, engineering decisions,
+reusable patterns, source notes, and lessons learned across projects.
 
-- raw/        Original sources and imports
-- wiki/       Processed reusable knowledge
-- assets/     Images and supporting assets
-- reports/    Generated reports
-- CODEX.md    AI-MIND operating rules
+![AI-MIND knowledge graph](assets/ai-mind-network.png)
 
-## Workflow
+> Turn scattered context into connected, reusable knowledge.
 
-New project
-→ project folder under PROJECTS
-→ Codex reads project AGENTS.md
-→ AI-MIND is consulted when useful
-→ project is implemented
-→ finish-project workflow extracts reusable knowledge
-→ AI-MIND becomes stronger for the next project
+## What lives here
 
-Actual project code never belongs inside AI-MIND.
+| Area | Purpose |
+| --- | --- |
+| `raw/` | Original sources and imports — preserved as reference material |
+| `wiki/` | Distilled knowledge written for future work |
+| `wiki/projects/` | Product context, architecture, decisions, and lessons |
+| `wiki/concepts/` | Reusable engineering and product patterns |
+| `wiki/entities/` | Tools, platforms, libraries, and services |
+| `wiki/sources/` | Traceable summaries of ingested sources |
+| `CODEX.md` | Operating rules and workflows for maintaining the system |
+
+## How it works
+
+```text
+Source or project
+        ↓
+   inspect + verify
+        ↓
+  distill what lasts
+        ↓
+ linked wiki knowledge
+        ↓
+ stronger work next time
+```
+
+Use `add` to ingest a source, `update` to refresh knowledge from a project,
+and `check` to find contradictions, stale claims, broken links, orphan pages,
+and missing sources. The full workflow is documented in [`CODEX.md`](CODEX.md).
+
+## Guiding principles
+
+- Keep knowledge concise, useful, and traceable.
+- Link related ideas as they are written.
+- Preserve `raw/` exactly; it is the source layer.
+- Keep actual application code in its own project repository.
+- Treat unverified or outdated claims as questions, not facts.
