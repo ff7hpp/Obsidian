@@ -1,0 +1,24 @@
+# Archived and copied project repositories are not part of the AI-MIND vault.
+/archive/
+/projects/
+/AI-MIND/
+
+# Local/editor state and generated output.
+.obsidian/workspace.json
+reports/*
+!.gitkeep
+
+# Secrets and local environment files.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*service-account*.json
+
+# Common dependency/build folders if imported project material is added later.
+node_modules/
+dist/
+build/
+.next/
+coverage/
