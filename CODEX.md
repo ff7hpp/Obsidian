@@ -180,6 +180,8 @@ For a remote GitHub URL:
 3. Codex inspects the repo if access is available.
 4. Codex writes wiki pages and records the repo as a source.
 
+Whenever the user mentions or shares a GitHub repository, automatically add its canonical URL to `wiki/entities/github-resource-repos.md` as a reference, even when they only want to save the link. Include a short note only when the user provides context or the repo has already been inspected. Check for duplicates first. Saving a reference does not authorize a full repository review or ingestion; do that only when requested. Update the entity page's index summary and append a dated entry to `wiki/log.md` when the catalog changes. Keep `raw/` immutable.
+
 Example:
 
 `ingest https://github.com/owner/repo and focus on architecture, setup, and reusable app patterns`

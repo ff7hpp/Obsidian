@@ -17,6 +17,22 @@ This source is a curated GitHub resource map for future app, website, automation
 - `https://github.com/codecrafters-io/build-your-own-x`: Build technologies from scratch for deep learning.
 - `https://github.com/JuliusBrussee/caveman`: Token-compressed communication skill.
 
+## User-Shared Links (2026-10-12)
+
+The following links and descriptions were provided by the user for possible use with Codex, AI-MIND, and flow-lean. Repository contents and current status have not been reviewed.
+
+- `https://github.com/DietrichGebert/ponytail`: Less, cleaner code.
+- `https://github.com/FlorianBruniaux/flow-lean`: Concise coding and direct responses.
+- `https://github.com/mattpocock/skills`: Requirements and agent instruction skills.
+- `https://github.com/obra/superpowers`: Planning, testing, and debugging skills.
+- `https://github.com/EveryInc/compound-engineering-plugin`: Capturing lessons and continuous improvement.
+- `https://github.com/gastownhall/beads`: Task memory and work management across sessions.
+- `https://github.com/trailofbits/skills`: Security review skills.
+- `https://github.com/upstash/context7`: Library and framework documentation.
+- `https://github.com/oraios/serena`: Code understanding and project search.
+- `https://github.com/vercel-labs/agent-browser`: Browser interaction and website testing.
+- `https://github.com/istefox/obsidian-mcp-connector`: Obsidian connection for agents.
+
 ## Key Takeaways
 
 - The repo list should be treated as a launchpad for future source ingestion, not as fully ingested knowledge yet.

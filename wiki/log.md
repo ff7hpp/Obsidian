@@ -296,3 +296,55 @@ Key takeaways:
 Source limitation:
 
 - The GeoIssue repository folder was not mounted in the current AI-MIND-only workspace. This handoff uses the verified repository work, tests, deployment checks, and decisions recorded in the preceding Codex conversation; no secrets or `.env` values were copied.
+## [2026-09-10] update | All local projects
+
+- Inspected `BUNDLE`, `GeoIssue`, `Medical-care-reminder-and-pharmacy-`, and `wesal` from their local project folders.
+- Added durable project pages for BUNDLE and MedLinka; refreshed GeoIssue evidence and the Wesal path/verification boundary.
+- Verified GeoIssue server tests (48/48), server syntax build, and client production build; recorded the bundle-size warning.
+- Attempted Wesal lint, typecheck, unit tests, and build; all were blocked by unavailable local Node binaries, not reported as passing.
+- No secrets were copied. Dependencies, generated output, and source code were excluded from the distilled knowledge.
+
+## [2026-09-10] lint | Brain check
+
+- Corrected MedLinka evidence: Express/Mongoose source conflicts with FastAPI/SQLite architecture documentation. The previous documentation-led summary was insufficient to describe implementation.
+- Indexed the existing GeoIssue compatibility pointer; retained it to avoid breaking historical links.
+- Added a source page for the four-project review and linked affected project pages.
+- Marked GeoIssue deployment claims as historical, requiring a fresh check before current use.
+- Link scan found no missing page targets except the inline-code `[[name]]` syntax example, which is not a navigation link. No pages lacked outgoing wiki links.
+- Raw-source coverage: skill packs, model contexts, GeoIssue and internship materials have source coverage. `raw/imports/old-obsidian-root/README.md` and `CHANGELOG.md` lack a dedicated import summary; preserve as historical material pending ingestion.
+- No high-confidence private-key/GitHub-token/OpenAI-project-key/AWS-access-key pattern matches found in wiki text. This limited scan is not a complete secret or personal-data audit.
+- Remaining: CODEX.md repeats workflow definitions with different detail; local copied projects/archive conflict with the intended external-project layout; historical paths and external claims need targeted refresh. No files moved.
+- Suggested next work: reconcile MedLinka implementation docs, restore Wesal test tooling, summarize legacy imports. No external research performed. No clear repeated concept requiring a new page was established.
+## [2026-09-18] ingest | Senior Prompt Architect — 6-Part Anatomy
+
+- Saved original source at `raw/senior-prompt-architect-6-part-anatomy.md`.
+- Added source summary with Role, Task, Context, Reasoning, Stop Conditions, and Output fields.
+
+## [2026-10-04] ingest | OSINT4ALL Start.me link collection
+
+- Saved the original URL and a concise source record in `raw/osint4all-startme.md`.
+- Added [[sources/osint4all-startme]] and indexed it in [[index]].
+- Recorded that the page is a directory of OSINT links and that its current individual listings were not accessible during capture.
+- No tool-level vetting or endorsement is implied; recheck links, privacy terms, and legality before use.
+
+## [2026-10-04] update | Automatic GitHub repository references
+
+- Added the Agent Reach repository URL to [[entities/github-resource-repos]].
+- Updated `CODEX.md` to automatically catalog GitHub repositories the user mentions or shares, deduplicate entries, and avoid treating a saved link as approval for a full repository review.
+- Updated the index summary for the repository catalog. The raw source files remain unchanged.
+
+## [2026-10-11] lint | Brain check
+
+- Wiki scan: 50 pages; all pages indexed; no orphan pages detected by outgoing-link scan.
+- Fixed one broken source reference in `wiki/sources/senior-prompt-architect-6-part-anatomy.md` by replacing invalid Obsidian syntax with an explicit raw-file reference.
+- Two production-full-stack raw support files are referenced only by their directory/skill summary, not individually: `FULL_STACK_READINESS_TEMPLATE.md` and `layer-checklist.md`.
+- No high-confidence secret-pattern matches found in wiki text during limited scan.
+- Current project repositories are outside AI-MIND; the current candidates are `altinbas-lms-mcp`, `EVE-CHOCOLATE`, `Study-Flow`, and `try-things/UmWajd-Catering-V1`.
+- Project update remains pending confirmation of emphasis; no project pages were written during this check.
+
+## [2026-10-12] update | GitHub resource links
+
+- Added 11 user-shared GitHub URLs to [[sources/github-resource-links]] and [[entities/github-resource-repos]].
+- Updated [[index]] summaries for both pages.
+- Recorded the user's descriptions as supplied context; repository contents, availability, and suitability were not reviewed.
+- Preserved `raw/links.md` unchanged.

@@ -2,7 +2,9 @@
 
 GeoIssue is a civic issue-reporting platform: a person selects a real location, submits a problem report, and the system groups, displays, tracks, and moderates geographic issues on a map.
 
-## Verified final state
+## Historical deployment evidence
+
+The following deployment results were recorded previously. Needs verification: current availability and production configuration; neither was rechecked on 2026-09-10. Current local checks are recorded in [[sources/local-projects-review-2026-09-10]].
 
 - Frontend is deployed at `https://geo-issue.vercel.app/`.
 - Backend API is deployed on Google Cloud Run at `https://geoissue-api-sx3roy7mbq-ew.a.run.app` and reports `healthy` with `database: postgresql`.
@@ -87,6 +89,6 @@ The browser calls an Express API. The API validates input, authenticates a JWT, 
 - [[concepts/production-full-stack-method]]
 - [[sources/geoissue-full-stack-documents]]
 
-## Evidence note
+## Current verification note
 
-This update is distilled from the verified GeoIssue repository work and live checks recorded in the preceding Codex conversation. The repository folder was not mounted in the current AI-MIND-only workspace, so no new source inspection was claimed during this handoff.
+The current local repository was inspected during the 2026-09-10 update. Branch `A` is synchronized with `origin/A`; only `AGENTS.md` has an uncommitted local change. Current checks passed: 48/48 server tests, server syntax build, and client Vite production build. Vite emitted a bundle-size warning above 500 KB. Live deployment and production health were not rechecked in this update.

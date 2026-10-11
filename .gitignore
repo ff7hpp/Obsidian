@@ -5,6 +5,8 @@
 
 # Local/editor state and generated output.
 .obsidian/workspace.json
+.obsidian/community-plugins.json
+.obsidian/plugins/
 reports/*
 !.gitkeep
 

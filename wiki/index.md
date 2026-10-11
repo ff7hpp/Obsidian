@@ -9,19 +9,25 @@ This is the catalog of wiki pages maintained by the LLM Wiki agent. Read this fi
 
 ## Sources
 
+- [[sources/senior-prompt-architect-6-part-anatomy]] - Six-part structure for turning basic ideas into high-fidelity prompts.
+- [[sources/local-projects-review-2026-09-10]] - Local four-project review, test boundaries, and MedLinka documentation/code conflict.
 - [[sources/agent-skills-pack]] - Source summary for the 24-skill product-engineering lifecycle from `addyosmani/agent-skills`.
 - [[sources/caveman-skill]] - Source summary for the token-compressed communication skill.
 - [[sources/claude-code-opus-4-8-context]] - Source summary for Claude Code Opus 4.8 harness, tools, memory, skills, and workflows.
 - [[sources/claude-design-context]] - Source summary for Claude Design workflows, Design Components, verification, GitHub import, and design-to-code handoff.
 - [[sources/claude-fable-5-context]] - Source summary for Claude Fable 5 product/system/tool context and its conflicting model claims.
 - [[sources/claude-opus-4-8-context]] - Source summary for Claude Opus 4.8 product/system/tool context.
-- [[sources/github-resource-links]] - Source summary for the saved GitHub repo list.
+- [[sources/github-resource-links]] - Source summary for the saved GitHub repo list and 11 user-shared Codex/AI-MIND references.
 - [[sources/projects-workspace-audit-2026-07-29]] - First-pass audit of `C:\Users\aa77m\Downloads\PROJECTS` with extraction decisions for the second brain.
 - [[sources/geoissue-full-stack-documents]] - Source summary for GeoIssue's readiness report and full-stack website blueprint.
 - [[sources/ankageo-internship-materials]] - Summary of ANKAGEO internship instructions, roadmap, project options, and links.
+- [[sources/osint4all-startme]] - OSINT4ALL Start.me directory of OSINT research links, with source-access limitations.
 
 ## Projects
 
+- [[projects/GeoIssue]] - Compatibility pointer to the canonical GeoIssue page; not a duplicate project summary.
+- [[projects/bundle]] - PowerShell project packager with redaction, analysis, and AI-ready export formats.
+- [[projects/medlinka]] - Healthcare prototype with Express/Mongoose source and conflicting FastAPI/SQLite documentation.
 - [[projects/ankageo-bootcamp]] - Bootcamp curriculum repo organized by weekly frontend-to-fullstack learning tracks.
 - [[projects/assistive-communication]] - Arabic-first Next.js/Firebase/OneSignal assistive communication app with strong docs, verification, and reusable product architecture.
 - [[projects/assistive-communication-architecture]] - Dated repository snapshot of the web architecture and its security and delivery boundaries.
@@ -57,7 +63,7 @@ This is the catalog of wiki pages maintained by the LLM Wiki agent. Read this fi
 - [[entities/claude-code]] - Claude Code as an agentic coding environment and reference pattern source.
 - [[entities/claude-design]] - Claude Design as a design-agent workflow and design-to-code reference.
 - [[entities/codex]] - Codex's role as the maintainer and user of this Obsidian second brain.
-- [[entities/github-resource-repos]] - Catalog of GitHub repos saved as future resources.
+- [[entities/github-resource-repos]] - Automatic reference catalog for GitHub repositories the user mentions or shares, including the 2026-10-12 links.
 - [[entities/google-cloud-run]] - Container deployment and verification lessons from GeoIssue.
 - [[entities/vercel]] - Static frontend deployment and API-boundary lessons from GeoIssue.
 

@@ -1,6 +1,6 @@
 # Assistive Communication
 
-Path: `C:\Users\aa77m\Downloads\PROJECTS\web_app\assistive-communication`
+Path: `C:\Users\aa77m\Downloads\PROJECTS\AI-MIND\projects\wesal`
 
 Arabic-first assistive communication web app for a non-speaking user and trusted family caregivers. The product uses Firebase Auth, Firestore, caregiver pairing, direct requests, and OneSignal notifications.
 
@@ -44,6 +44,10 @@ npm run verify:system
 
 This is one of the strongest local examples of a serious web app with auth, data rules, notifications, documentation, verification, and deployment context. Use it as a reference for future app architecture, Firebase integration, environment setup discipline, and production-readiness checks.
 
+## Current verification boundary
+
+The local project is clean and tracks `origin/main`, with extensive unit, integration, security, and Playwright test files. In this update, lint, typecheck, unit tests, and build were attempted but could not run because local Node binaries (`eslint`, `tsc`, `vitest`, and `next`) were unavailable. Do not treat the documented release boundary as freshly re-verified until dependencies are installed and the full commands pass.
+
 ## Deep Pages
 
 - [[projects/assistive-communication-product]]
@@ -52,6 +56,8 @@ This is one of the strongest local examples of a serious web app with auth, data
 - [[projects/assistive-communication-transformation-paths]]
 
 ## Source Notes
+
+Current local review and command limitations: [[sources/local-projects-review-2026-09-10]].
 
 Derived from [[sources/projects-workspace-audit-2026-07-29]] and direct repository files including `README.md`, `package.json`, and the `docs/` folder.
 
